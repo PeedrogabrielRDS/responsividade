@@ -1,0 +1,67 @@
+@font-face {
+    font-family: jost;
+    src: url(./fontes/Jost-ExtraLight.ttf) format('opentype')
+}
+
+@font-face {
+    font-family: jost-light;
+    src: url(./fontes/Jost-Light.ttf);
+}
+
+@font-face {
+    font-family: jost-regular;
+    src: url(./fontes/Jost-Regular.ttf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+body {
+    height: 200vh;
+    font-family: 'jost-light';
+}
+
+.bg-body-tertiary, .container-fluid {
+    height: 9vh;
+    font-size: 1.2em;
+    box-shadow: 0 2px 5px #00000010;
+    position: fixed;
+}
+
+.navbar-brand {
+    font-family: 'jost';
+    font-size: 1.8em;
+}
+
+.nav-link {
+    font-size: 0.9em;
+}
+
+.dropdown-item {
+    font-size: 1.2em;
+}
+
+.me-2 {
+    width: 300px;
+    border-radius: 40px;
+}
+
+.btn-outline-success {
+    background-color: #fff;
+    border: 1px solid #DEE2E6;
+    border-radius: 40px;
+}
+
+.btn-outline-success:hover{
+    background-color: #F7A7C3;
+    border: 1px solid #fff;
+}
+
+.btn-outline-success:active{
+    background-color: #F7A7C3;
+}
